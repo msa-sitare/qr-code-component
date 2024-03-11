@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--lightgray);
+    text-align: center;
+    font-family: Outfit;
+}
+
+a { 
+    color: hsl(228, 45%, 44%);
+}
+
+h2 {
+    color: var(--darkblue);
+}
+
+p {
+    color: var(--grayishblue);
+    font-size: 15px;
+}
+
+
