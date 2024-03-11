@@ -21,18 +21,16 @@ body {
     margin: 0;
     background-color: var(--lightgray);
     font-family: Outfit;
-    border: 1px solid red;
     display: grid;
     place-items: center;
 }
 
 footer {
     color: var(--grayishblue);
-    border: 1p;
 }
 
 a { 
-    color: hsl(228, 45%, 44%);
+    color: #2C7DFA;
 }
 
 a:hover {
@@ -40,7 +38,7 @@ a:hover {
 }
 
 .content {
-
+    text-align: center;
 }
 
 .card {
@@ -49,6 +47,7 @@ a:hover {
     height: 497px;
     padding: 18px;
     border-radius: 20px;
+    filter: drop-shadow(0 25px 25px hsla(0, 0%, 0%, 0.2));
 }
 
 .card img {
@@ -66,5 +65,3 @@ a:hover {
     font-size: 15px;
     padding: 0 16px;
 }
-
-
