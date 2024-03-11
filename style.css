@@ -16,22 +16,55 @@ html {
 }
 
 body {
+    padding: 0;
+    height: 100vh;
+    margin: 0;
     background-color: var(--lightgray);
-    text-align: center;
     font-family: Outfit;
+    border: 1px solid red;
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    color: var(--grayishblue);
+    border: 1p;
 }
 
 a { 
     color: hsl(228, 45%, 44%);
 }
 
-h2 {
+a:hover {
     color: var(--darkblue);
 }
 
-p {
+.content {
+
+}
+
+.card {
+    background-color: var(--White);
+    width: 320px;
+    height: 497px;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+.card img {
+    height: 288px;
+    width: 288px;
+}
+
+.card h2 {
+    color: var(--darkblue);
+    font-size: 22px;
+}
+
+.card p {
     color: var(--grayishblue);
     font-size: 15px;
+    padding: 0 16px;
 }
 
 
