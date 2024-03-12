@@ -27,6 +27,9 @@ body {
 
 footer {
     color: var(--grayishblue);
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1%;
 }
 
 a { 
